@@ -1,0 +1,27 @@
+{
+  "name": "tzookb/api-responder",
+  "type": "library",
+  "description": "laravel api response helper",
+  "keywords": ["laravel", "php", "api"],
+  "homepage": "https://github.com/tzookb/api-responder",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "tzookb",
+      "email": "tzookb@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "illuminate/contracts": "5.*"
+  },
+  "require-dev": {
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Tzookb\\ApiResponder\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
